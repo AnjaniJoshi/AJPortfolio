@@ -47,8 +47,8 @@ const IndexPage = () => (
       params={{
         particles: {
           number: {
-            value: 100,
-            density: { enable: true, value_area: 868.0624057955 },
+            value: 30,
+            density: { enable: true, value_area: 968.0624057955 },
           },
           color: { value: '#fff' },
           shape: {
@@ -75,7 +75,7 @@ const IndexPage = () => (
           },
           move: {
             enable: true,
-            speed: 5,
+            speed: 1.2,
             direction: 'none',
             random: false,
             straight: false,
